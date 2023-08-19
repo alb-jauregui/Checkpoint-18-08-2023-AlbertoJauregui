@@ -1,0 +1,31 @@
+Agrega los comandos que realizaste en este examen:
+
+mkdir Checkpoint-18-08-2023-AlbertoJauregui
+cd Checkpoint-18-08-2023-AlbertoJauregui
+git init
+git remote add origin https://github.com/alb-jauregui/Checkpoint-18-08-2023-AlbertoJauregui.git
+touch main.js index.html
+git add .
+git commit -m 'commit 01 de Alberto Jauregui'
+git push -u origin main
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+cd Hardware/
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+cd ..
+cd SeguridadInformatica/
+touch resumen.txt
+git add .
+git commit -m 'commit 02 de Alberto Jauregui'
+git push -u origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+kak resumenSoftware.txt
+kak resumenHardware.txt
+touch comandos.txt
+kak comandos.txt
